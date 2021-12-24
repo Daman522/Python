@@ -5,13 +5,13 @@
 
 # def suffix(s):
 #     if (len(s) == 0):
-#         print('lenth is 0')
-#         print(s)
+#         # print('lenth is 0')
+#         # print(s,'ssss')
         
 #         return
 #     print(s)
 #     suffix(s[1:])
-    # print(s)
+#     # print(s)
 # suffix("abcde")
 
 # a="bababacdef"
@@ -68,7 +68,7 @@
 #         summ= summ+a[i]
 # if summ%2==0:
 #             a.append(summ)
-# print(a)
+# print(a,'---------')
 # x={}
 # a=[1,2,2,2,5,10,10]
 # for i in a:
@@ -87,21 +87,84 @@
 #         x[i]=1
 # print(x)
 
-a=[2,3,5,6]
-for i in range(len(a)):
-    if(i==1):
-        b=a[i]*100
-        print(b)
+# a=[2,3,5,6]
+# for i in range(len(a)):
+#     if(i==1):
+        
+#         b=a[i]*100
+#         print(b)
       
 
 
 
+# from collections import Counter
+# a='["damn"]'
+# print("type of a ", type(a))
+# print(type(eval(a)))
+
+# x=[1,2,3,4,4]
+# y= Counter(x)
+# print(y)
+b=[1,2,3,[4,5,6,[7,8,9,{"a":"daman"}]]]
+a=b[3][3][3]['a']
+print(a)
+
+# a=[2,3,5]
+# b=[1,2,5]
+# i=0
+# while(i<len(a)):
+#     c=a[i]+b[i]
+#     i=i+1
+#     print(c)
 
 
+# a=[2,4,5,6,8,9]
+# b=int(len(a)/2)
+# print (a[b])
 
+# a=("daman \n ")*100
+# print(a)
 
+# a = input().strip().split(' ')
+# for i in range(0, len(a)):
+#     a[i] = int(a[i])
+    
+# s = sum(a)
+# print(str(s - max(a)) + " " + str(s - min(a)))
+# a=[2,10,1,5,3]
+# x=sorted(a)
+# print(x)
+# min=0
+# max=0
+# for i in range(len(x)-1):
+#     min=min+x[i]
+# print(min,'minimum')
+# for i in range(len(x)-1,0,-1):
+#     max=max+x[i]
+# print(max,'maximum')
+# max=0
+# min=0
+# for i in  range (len(a)-1):
+#     if a[i]>a[i+1]:
+#         g=a[i],a[i+1]=a[i+1],a[i]
+#         print(g,'----')
+#         max=max+a[i]
+#         print(max)
+  
+# n=20
+# for i in range(0,20,2):
+#     print(i)
 
+    # Multiplication table (from 1 to 10) in Python
 
+# num = 12
+
+# To take input from the user
+# num = int(input("Display multiplication table of? "))
+
+# Iterate 10 times from i = 1 to 10
+# for i in range(11,1,-2):
+#     print(i)
 
 
 
